@@ -1,0 +1,130 @@
+#root{
+	width: 100%;
+	height: 100%;
+}
+#all .new_wrapper{
+	width: 90%;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+#registerForm .phone1{
+    width:100%;
+    border: 0;
+    outline: 0;
+    font: 0.16rem "黑体";
+    color: #333;
+    background: #fff;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius:5px;
+    padding: 6% 5%;
+    margin: 0;
+	
+}
+#registerForm .vcode1{
+	margin:10px 0;
+}
+#registerForm .vcode2{
+	margin:15px 0;
+}
+.regpws{
+	position:relative;
+}
+.regpws .butt{
+	position:absolute;
+	width: 53px;
+	right:4%;
+    bottom: 36%;
+    font-size: 0.16rem;
+    padding: 10px 6px;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #ccc;
+    line-height:12px;
+}
+.code{
+	float:left;
+}
+.code_a{
+	margin: 20px;
+    font-size: 0.14rem;
+    color: #45e3be;
+    text-decoration: none;
+}
+em{
+	 color: #9bffd3;
+    font-style: normal;
+    line-height: 42px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.pass{
+	position:relative;
+}
+.eye{
+	 width: 20px;
+    height: 13px;
+    background: url(//img.lagou.com/passport/static/mobile/modules/common/img/psweye_930f545.png) 0 0 no-repeat;
+    background-size: 20px 30px;
+    position: absolute;
+    right: 20px;
+    bottom: 21px;
+    
+}
+.open{
+	width: 20px;
+    height: 13px;
+    position: absolute;
+    right: 20px;
+    bottom: 21px;
+    background: url(//img.lagou.com/passport/static/mobile/modules/common/img/psweye_930f545.png) 0 -16px no-repeat;
+   transform: scale(1.1,1.1);
+   background-size: 20px 30px;
+    bottom: 21px;
+}
+.register1{
+	display: block;
+    width: 100%;
+    font-size:0.20rem;
+    color: #fff;
+    text-align: center;
+    background: #0ac599;
+    -webkit-box-shadow: 0 2px 0 #008765;
+    -moz-box-shadow: 0 2px 0 #008765;
+    box-shadow: 0 2px 0 #008765;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 5%;
+	
+}   
+.Id{
+	color: #45e3be;
+    font-size: 0.12rem;
+    line-height: 1.3;
+   font-weight:normal;
+}
+.register2{
+    display: block;
+    width:100%;
+    font-size:0.16rem;
+    color: #45e3be;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #45e3be;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 8px 0;
+    padding: 5%;
+}
+.deal{
+	 color: #45e3be;
+    font-size:0.14rem;
+    line-height: 1.3;
+}
+
+    

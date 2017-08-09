@@ -1,0 +1,97 @@
+#root{
+	width: 100%;
+	height:100%;
+}
+#all{
+	background: -moz-linear-gradient(left 135deg,#029253,#00887b);
+    background: -webkit-gradient(linear,100% 100%,0 0,from(#029253),to(#00887b));
+    background: -webkit-linear-gradient(135deg,#029253,#00887b);
+    background: -o-linear-gradient(135deg,#029253,#00887b);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#new-wrapper{
+    width: 90%;
+    padding: 20px 0;
+    margin: 0 auto;
+    position:relative;
+}
+.new_register{
+	height:120px;
+	background-color:#fff;
+	border-radius:5px;
+	position:relative;
+}
+.new_register .input_tips{
+	 font-size:12px;
+	 color:red;
+	 position:absolute;
+	 z-index:2;
+	 right:10px;
+	 top:22px;
+	 display:none;
+}
+.new_register .eye{
+	 width: 20px;
+    height: 13px;
+    background: url(//img.lagou.com/passport/static/mobile/modules/common/img/psweye_930f545.png) 0 0 no-repeat;
+    background-size: 20px 30px;
+    position: absolute;
+    right: 20px;
+    bottom: 21px;
+    
+}
+.new_register .open{
+	width: 20px;
+    height: 13px;
+    position: absolute;
+    right: 20px;
+    bottom: 21px;
+    background: url(//img.lagou.com/passport/static/mobile/modules/common/img/psweye_930f545.png) 0 -16px no-repeat;
+   transform: scale(1.1,1.1);
+   background-size: 20px 30px;
+}
+.new_register .pws{
+	position:relative;
+}
+#new-wrapper input{
+	display: block;
+	border:none;
+	height: 60px;
+	text-indent:10px;
+	width: 100%;
+	font-size:0.16rem;	
+}
+#new-wrapper input:nth-child(1){
+	border-bottom:1px solid #ccc;
+}
+.Buton input{
+	height:60px;
+	background-color:#0ac599;
+	text-align:center;
+	color:#fff;
+	border-radius: 5px;
+    margin: 20px 0;
+    padding:5%;
+}
+.register_text{
+	color:#45e3be;
+	font-size:0.12rem;
+}
+.register{
+	display: block;
+    width:100%;
+    font-size:0.16rem;
+    color: #45e3be;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #45e3be;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 8px 0;
+    padding: 5%;
+}
+

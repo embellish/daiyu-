@@ -1,0 +1,9 @@
+.Item_li{
+	margin-bottom:26px;
+	height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 0.15rem;
+    background-color: #fafafa;
+    color:#000000;
+}

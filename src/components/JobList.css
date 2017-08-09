@@ -1,0 +1,33 @@
+.List_li{
+	list-style: none;
+	padding: 14px;
+    border-bottom: 1px solid #e8e8e8;
+	display: flex;
+}
+.list_img{
+	display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+
+.list_div{
+	margin-left:10px;
+	position:relative;
+	width: 100%;
+}
+.list_div .list_p{
+	font-size:14px;
+	color:red;
+	margin-top:5px;
+}
+.list_div .salary{
+	color:#00b38a;
+	float:right;
+	font-size:16px;
+}
+.list_div .positionName{
+	font-size:12px;
+	color:#000000;
+	
+}
+
